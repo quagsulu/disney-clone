@@ -14,4 +14,4 @@ function HrMovieCard({movie}) {
   )
 }
 
-export default HrMovieCard
+export default HrMovieCard 

@@ -36,7 +36,7 @@ function MovieList({genreId,index_}) {
         {movieList.map((item,index)=>(
            <>
           {index_%3==0?<HrMovieCard movie={item}/>:<MovieCard movie={item} />}
-           </> 
+           </>  
         ))}
     </div>
     <IoChevronForwardOutline onClick={()=>slideRight(elementRef.current)}
