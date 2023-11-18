@@ -31,7 +31,7 @@ function MovieList({genreId,index_}) {
             hidden md:block absolute
             ${index_%3==0?'mt-[80px]':'mt-[150px]'} `}/>
    
-    <div ref={elementRef} className='flex overflow-x-auto gap-8
+    <div ref={elementRef} className='flex overflow-x-hidden gap-8
      scrollbar-none scroll-smooth pt-4 px-3 pb-4'>
         {movieList.map((item,index)=>(
            <>
